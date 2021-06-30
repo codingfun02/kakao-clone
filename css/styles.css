@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 @import "reset.css";
 @import "status-bar.css";
-
-* {
-  font-family: "Open Sans";
-}
+@import "login.css";
 
 :root {
-  --main-text-color: #171717;
+  --main-color: #2e364e;
+  --yellow-color: #ffe710;
+}
+
+body {
+  color: var(--main-color);
+  font-family: "Open Sans";
 }
