@@ -2,10 +2,22 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "login.css";
+@import "nav.css";
 
 :root {
   --main-color: #2e364e;
   --yellow-color: #ffe710;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 body {
