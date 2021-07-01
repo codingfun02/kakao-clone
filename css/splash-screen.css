@@ -1,0 +1,22 @@
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.splash-screen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow-color);
+  font-size: 130px;
+  animation: 0.5s 0.3s fadeOut forwards;
+}

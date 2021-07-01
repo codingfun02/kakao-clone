@@ -1,0 +1,19 @@
+.friend-avatar {
+  margin-right: 18px;
+  border-radius: 42%;
+}
+
+.friend-avatar--lg {
+  width: 80px;
+  height: 80px;
+}
+
+.friend-avatar--md {
+  width: 70px;
+  height: 70px;
+}
+
+.friend-avatar--sm {
+  width: 55px;
+  height: 55px;
+}
