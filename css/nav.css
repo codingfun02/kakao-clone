@@ -48,6 +48,10 @@
   animation: 0.5s 0.75s showNavItems forwards;
 }
 
+.nav div a {
+  color: var(--main-color);
+}
+
 .nav div i {
   cursor: pointer;
 }
