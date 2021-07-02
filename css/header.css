@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 25px 0px 25px;
+}
+
+.header-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.header i {
+  font-size: 22px;
+}
+
+.header i:nth-of-type(n + 2) {
+  margin-left: 25px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header i:last-of-type:hover {
+  animation: rotate 1s linear infinite;
+}

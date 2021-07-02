@@ -2,11 +2,13 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "login.css";
+@import "header.css";
 @import "nav.css";
 @import "splash-screen.css";
 @import "main.css";
 @import "friends.css";
 @import "friend.css";
+@import "chats.css";
 
 :root {
   --main-color: #2e364e;

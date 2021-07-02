@@ -27,3 +27,8 @@
   font-size: 23px;
   font-weight: 600;
 }
+
+.friend-avatar-message-preview {
+  color: var(--gray-color);
+  font-size: 17px;
+}

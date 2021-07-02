@@ -1,0 +1,32 @@
+.chats__list__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chats__list__item__friend-name {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.chat__list__item__time {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  color: var(--gray-color);
+}
+
+.chat__list__item__notification {
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+  width: 27px;
+  height: 27px;
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  line-height: 27px;
+  border-radius: 50%;
+  background-color: #ff6347;
+}
