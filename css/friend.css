@@ -17,3 +17,13 @@
   width: 55px;
   height: 55px;
 }
+
+.friend-avatar-name--regular {
+  color: var(--main-color);
+  font-size: 23px;
+}
+
+.friend-avatar-name--bold {
+  font-size: 23px;
+  font-weight: 600;
+}
