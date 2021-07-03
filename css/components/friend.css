@@ -1,21 +1,25 @@
-.friend-avatar {
-  margin-right: 18px;
-  border-radius: 42%;
-}
-
 .friend-avatar--lg {
   width: 80px;
   height: 80px;
+  border-radius: 42%;
 }
 
 .friend-avatar--md {
   width: 70px;
   height: 70px;
+  border-radius: 42%;
 }
 
 .friend-avatar--sm {
   width: 55px;
   height: 55px;
+  border-radius: 42%;
+}
+
+.friend-avatar--xlg {
+  width: 110px;
+  height: 110px;
+  border-radius: 10%;
 }
 
 .friend-avatar-name--regular {
