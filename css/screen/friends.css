@@ -35,38 +35,24 @@
   margin-top: 85px;
 }
 
-.friends__list__name {
-  margin-left: 18px;
-}
-
-.friends__list__me {
-  display: flex;
-  align-items: center;
+.friends__list-me {
   margin-top: 15px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--gray-color-for-line);
 }
 
-.friends__list__channel {
+.friends__list-channel {
   margin-top: 15px;
   color: var(--gray-color);
 }
 
-.friends__list__channel__row,
-.friends__list__channel__row div {
+.friends__list-channel__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.friends__list__channel__row:nth-of-type(1) {
   margin-bottom: 28px;
 }
 
-.friends__list__channel__row:nth-of-type(2) i {
-  margin-left: 4px;
-}
-
-.friends__list__channel i {
+.friends__list-channel i {
   font-size: 12px;
 }

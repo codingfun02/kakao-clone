@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
-@import "components/status-bar.css";
 @import "screen/login.css";
-@import "components/header.css";
-@import "components/nav.css";
-@import "components/splash-screen.css";
-@import "components/main.css";
 @import "screen/friends.css";
-@import "components/friend.css";
 @import "screen/chats.css";
 @import "screen/find.css";
+@import "screen/more.css";
+@import "components/status-bar.css";
+@import "components/header.css";
+@import "components/main.css";
+@import "components/nav.css";
+@import "components/user-component.css";
+@import "components/splash-screen.css";
+@import "components/icon-list.css";
 
 :root {
   --main-color: #2e364e;

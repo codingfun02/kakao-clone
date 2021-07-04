@@ -1,0 +1,40 @@
+.more .user-component i {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 30px;
+}
+
+.more .icon-list {
+  margin-top: 32px;
+}
+
+.more__suggestions {
+  margin-top: 40px;
+  border-top: 1px solid var(--gray-color-for-line);
+  padding-top: 40px;
+}
+
+.more__suggestions-list {
+  display: flex;
+  margin-top: 28px;
+}
+
+.more__suggestions-list__item {
+  text-align: center;
+}
+
+.more__suggestions-list__item div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0px auto 12px auto;
+  border-radius: 20%;
+  background-color: var(--yellow-color);
+  color: white;
+  font-size: 30px;
+}
+
+.more__suggestions-list__item:nth-of-type(n + 2) {
+  margin-left: 25px;
+}
