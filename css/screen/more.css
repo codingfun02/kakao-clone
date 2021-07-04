@@ -1,3 +1,9 @@
+.more-header__settings-btn {
+  display: inline-block;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
 .more .user-component i {
   color: rgba(0, 0, 0, 0.4);
   font-size: 30px;

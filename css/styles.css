@@ -5,6 +5,7 @@
 @import "screen/chats.css";
 @import "screen/find.css";
 @import "screen/more.css";
+@import "screen/settings.css";
 @import "components/status-bar.css";
 @import "components/header.css";
 @import "components/main.css";
@@ -34,4 +35,8 @@ body {
 body {
   color: var(--main-color);
   font-family: "Open Sans";
+}
+
+a {
+  color: var(--main-color);
 }

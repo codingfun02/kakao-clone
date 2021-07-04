@@ -10,7 +10,7 @@
   font-weight: 600;
 }
 
-.header i {
+.header:not(.settings-header) i {
   font-size: 22px;
 }
 
@@ -27,6 +27,6 @@
   }
 }
 
-.header i:last-of-type:hover {
+.cog-icon:hover {
   animation: rotate 1s linear infinite;
 }

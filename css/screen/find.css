@@ -23,7 +23,7 @@
   font-size: 18px;
 }
 
-.find__open-chat__row:nth-of-type(1) {
+.find__open-chat__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,28 +35,28 @@
   font-size: 16px;
 }
 
-.find__open-chat__row:nth-of-type(1) div:nth-of-type(2) {
+.find__open-chat__header div:nth-of-type(2) {
   color: rgba(0, 0, 0, 0.4);
   font-size: 16px;
 }
 
-.find__open-chat__row:nth-of-type(1) i {
+.find__open-chat__header i {
   font-size: 12px;
 }
 
-.find__open-chat__row:nth-of-type(2) {
+.find__open-chat__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.find__open-chat__row:nth-of-type(2) div:nth-of-type(1) span:nth-of-type(1) {
+.find__open-chat__content div:nth-of-type(1) span:nth-of-type(1) {
   display: block;
   margin-bottom: 6px;
   font-weight: 600;
 }
 
-.find__open-chat__row:nth-of-type(2) div:nth-of-type(1) span:nth-of-type(2) {
+.find__open-chat__content div:nth-of-type(1) span:nth-of-type(2) {
   color: var(--gray-color);
 }
 
