@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
-@import "screen/login.css";
-@import "screen/friends.css";
-@import "screen/chats.css";
-@import "screen/find.css";
-@import "screen/more.css";
-@import "screen/settings.css";
 @import "components/status-bar.css";
 @import "components/header.css";
 @import "components/main.css";
@@ -13,6 +7,13 @@
 @import "components/user-component.css";
 @import "components/splash-screen.css";
 @import "components/icon-list.css";
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/chat.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
 
 :root {
   --main-color: #2e364e;
@@ -39,4 +40,9 @@ body {
 
 a {
   color: var(--main-color);
+  text-decoration: none;
+}
+
+i {
+  font-size: inherit;
 }

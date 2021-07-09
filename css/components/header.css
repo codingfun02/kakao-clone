@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,11 +11,24 @@
   font-weight: 600;
 }
 
-.header:not(.settings-header) i {
+.header__title--lg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.header__icon--normal {
   font-size: 22px;
 }
 
-.header i:nth-of-type(n + 2) {
+.header__icon--lg {
+  font-size: 48px;
+}
+
+.header__icon:nth-of-type(n + 2) {
   margin-left: 25px;
 }
 
